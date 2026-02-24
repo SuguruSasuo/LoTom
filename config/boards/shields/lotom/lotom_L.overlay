@@ -15,8 +15,8 @@
     kscan0: kscan0 {
         compatible = "zmk,kscan-gpio-charlieplex";
         interrupt-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
-        debounce-press-ms = <10>;
-        debounce-release-ms = <10>;
+        debounce-press-ms = <15>;
+        debounce-release-ms = <15>;
         debounce-scan-period-ms = <2>;
         gpios
             = <&xiao_d 1 GPIO_ACTIVE_HIGH>
