@@ -62,10 +62,10 @@
         SCROLL {
             bindings = <
 &trans      &kp BACKSPACE
-&kp ESCAPE  &trans         &trans  &kp SINGLE_QUOTE   &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN       &kp HASH              &kp DOLLAR     &kp PIPE   &kp BACKSPACE
-&trans      &trans         &trans  &kp DOUBLE_QUOTES  &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LCTRL         &kp ASTERISK          &kp SEMICOLON  &kp COLON  &kp ENTER
-&kp F12     &trans         &trans  &trans             &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE         &kp COMMA             &kp PERIOD     &kp SLASH  &kp QUESTION
-&kp F12     &trans         &trans  &trans             &kp GRAVE        &kp LESS_THAN         &kp GREATER_THAN       &kp SINGLE_QUOTE  &kp NON_US_BACKSLASH  &trans
+&kp ESCAPE  &trans         &trans  &kp SINGLE_QUOTE   &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN       &kp HASH       &kp DOLLAR     &kp PIPE   &kp BACKSPACE
+&trans      &trans         &trans  &kp DOUBLE_QUOTES  &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp CARET         &kp ASTERISK   &kp SEMICOLON  &kp COLON  &kp ENTER
+&kp F12     &trans         &trans  &trans             &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE         &kp COMMA      &kp PERIOD     &kp SLASH  &kp QUESTION
+&kp F12     &trans         &trans  &trans             &kp GRAVE        &kp LESS_THAN         &kp GREATER_THAN       &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
             >;
 
             sensor-bindings = <
