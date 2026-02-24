@@ -107,10 +107,10 @@
         OTHER {
             bindings = <
 &kp ESC  &kp GRAVE
-&trans   &trans     &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(LG(NUMBER_4))    &kp LS(LG(N5))  &kp LS(LG(NUMBER_6))     &kp PIPE   &kp BACKSPACE
-&trans   &trans     &trans  &trans  &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LA(LEFT_ARROW))  &kp UP_ARROW    &kp LC(LA(RIGHT_ARROW))  &kp COLON  &kp ENTER
-&trans   &trans     &trans  &trans  &kp AMPERSAND    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp SLASH  &kp QUESTION
-&trans   &trans     &trans  &trans  &kp GRAVE        &kp LESS_THAN         &kp GREATER_THAN       &kp GRAVE               &kp BACKSLASH   &trans
+&trans   &trans     &trans  &trans     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LS(LG(NUMBER_4))    &kp LS(LG(N5))  &kp LS(LG(NUMBER_6))     &kp PIPE   &kp BACKSPACE
+&trans   &trans     &trans  &trans     &kp PERCENT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LC(LA(LEFT_ARROW))  &kp UP_ARROW    &kp LC(LA(RIGHT_ARROW))  &kp COLON  &kp ENTER
+&trans   &trans     &trans  &kp LG(C)  &kp LA(V)        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp SLASH  &kp QUESTION
+&trans   &trans     &trans  &trans     &kp GRAVE        &kp LESS_THAN         &kp GREATER_THAN       &kp GRAVE               &kp BACKSLASH   &trans
             >;
 
             sensor-bindings = <
